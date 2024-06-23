@@ -14,8 +14,11 @@ Task: _develop a delegated orchestrator that reads the orchestration domain stat
 
 ## Participants
 
-- Stavros Tsiampokalos
-- Fanourakis Nikos
-- Ioannis Christofilogiannis
-- Georgios Stavgiannoudakis
+Four different implementations of the task have been developed during the code camp, in about 3 hours:
 
+- [Stavros Tsiampokalos](./stsiampokalos)
+- [Fanourakis Nikos](./fanourakis)
+- [Ioannis Christofilogiannis](./christofilogiannis]
+- [Georgios Stavgiannoudakis](./stavgiannoudakis)
+
+The delegated orchestrators developed have been tested with an EDGELESS cluster of 10 nodes with a WASM runtime, each running in a separate container, and an initial set of 100 workflows (each consisting of a single function).
